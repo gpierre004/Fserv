@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Fi Erv 1639863936853" max_length="40" name="x_512422_fi_erv_1639863936853" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=BusinessName" label="BusinessName " max_length="40" name="u_businessname" type="string"/>
+        <element attributes="import_attribute_name=duns" label="duns" max_length="40" name="u_duns" type="float"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=hasDUNSChanged" label="hasDUNSChanged" max_length="40" name="u_hasdunschanged" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=HQ" label="HQ " max_length="40" name="u_hq" type="string"/>
+        <element attributes="import_attribute_name=id" label="id " max_length="40" name="u_id" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=isActiveBusiness" label="isActiveBusiness" max_length="40" name="u_isactivebusiness" type="string"/>
+        <element attributes="import_attribute_name=PostalCode" label="PostalCode " max_length="40" name="u_postalcode" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=State" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=StreetAddress" label="StreetAddress " max_length="40" name="u_streetaddress" type="string"/>
+    </element>
+</database>

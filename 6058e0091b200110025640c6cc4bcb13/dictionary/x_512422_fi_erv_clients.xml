@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Clients" max_length="40" name="x_512422_fi_erv_clients" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="ABA NUMBER" max_length="40" name="aba_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ADDRESS CITY" max_length="40" name="address_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ADDRESS LINE 1" max_length="40" name="address_line_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ADDRESS ZIP CODE" max_length="40" name="address_zip_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="BILLING PARENT BUS NAME" max_length="40" name="billing_parent_bus_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="BILLING PARENT PART ID" max_length="40" name="billing_parent_part_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="BUSINESS NAME" max_length="40" name="business_name" type="string"/>
+        <element attributes="encode_utf8=false" label="Business_Name2" max_length="32" name="business_name2" reference="x_512422_fi_erv_duns_bradstreet" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="BUSINESS STATUS CODE" max_length="40" name="business_status_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="GSP PARENT BUS NAME" max_length="40" name="gsp_parent_bus_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="GSP PARENT PART ID" max_length="40" name="gsp_parent_part_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PARTICIPANT ID" max_length="40" name="participant_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PAR TYPE" max_length="40" name="par_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Region" max_length="40" name="region" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="STATE" max_length="40" name="state" type="string"/>
+        <index name="index">
+            <element name="business_name2"/>
+        </index>
+    </element>
+</database>

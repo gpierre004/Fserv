@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Fi Erv 1639864028227" max_length="40" name="x_512422_fi_erv_1639864028227" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ABA NUMBER" label="ABA NUMBER" max_length="40" name="u_aba_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ADDRESS CITY" label="ADDRESS CITY" max_length="40" name="u_address_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ADDRESS LINE 1" label="ADDRESS LINE 1" max_length="40" name="u_address_line_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ADDRESS ZIP CODE" label="ADDRESS ZIP CODE" max_length="40" name="u_address_zip_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=BILLING PARENT BUS NAME" label="BILLING PARENT BUS NAME" max_length="40" name="u_billing_parent_bus_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=BILLING PARENT PART ID" label="BILLING PARENT PART ID" max_length="40" name="u_billing_parent_part_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=BUSINESS NAME" label="BUSINESS NAME" max_length="40" name="u_business_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=BUSINESS STATUS CODE" label="BUSINESS STATUS CODE" max_length="40" name="u_business_status_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=GSP PARENT BUS NAME" label="GSP PARENT BUS NAME" max_length="40" name="u_gsp_parent_bus_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=GSP PARENT PART ID" label="GSP PARENT PART ID" max_length="40" name="u_gsp_parent_part_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PARTICIPANT ID" label="PARTICIPANT ID" max_length="40" name="u_participant_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PAR TYPE" label="PAR TYPE" max_length="40" name="u_par_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Region" label="Region" max_length="40" name="u_region" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=STATE" label="STATE" max_length="40" name="u_state" type="string"/>
+    </element>
+</database>

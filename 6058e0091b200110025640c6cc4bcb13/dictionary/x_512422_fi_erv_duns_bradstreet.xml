@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Duns&amp;Bradstreet" max_length="40" name="x_512422_fi_erv_duns_bradstreet" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="BusinessName " max_length="40" name="businessname" type="string"/>
+        <element label="Duns" max_length="40" name="duns" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="hasDUNSChanged" max_length="40" name="hasdunschanged" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="HQ " max_length="40" name="hq" type="string"/>
+        <element label="id " max_length="40" name="id" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="isActiveBusiness" max_length="40" name="isactivebusiness" type="string"/>
+        <element label="PostalCode " max_length="40" name="postalcode" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="State" max_length="40" name="state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="StreetAddress " max_length="40" name="streetaddress" type="string"/>
+    </element>
+</database>

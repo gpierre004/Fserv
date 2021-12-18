@@ -8,7 +8,9 @@
         <element attributes="edge_encryption_enabled=true" label="BILLING PARENT PART ID" max_length="40" name="billing_parent_part_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="BUSINESS NAME" max_length="40" name="business_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="BUSINESS STATUS CODE" max_length="40" name="business_status_code" type="string"/>
-        <element label="BusName" max_length="32" name="busname" reference="x_512422_fiserv_0_duns_bradstreet" type="reference"/>
+        <element choice="1" label="BusName" max_length="32" name="busname" reference="x_512422_fiserv_0_duns_bradstreet" reference_qual="businessnameSTARTSWITH^EQ" reference_qual_condition="businessnameSTARTSWITH^EQ" type="reference">
+            <choice/>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="GSP PARENT BUS NAME" max_length="40" name="gsp_parent_bus_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="GSP PARENT PART ID" max_length="40" name="gsp_parent_part_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="PARTICIPANT ID" max_length="40" name="participant_id" type="string"/>
